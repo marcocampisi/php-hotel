@@ -58,7 +58,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hotels</h1>
+        <h1 class="text-center my-3 fw-bold">Hotels</h1>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -74,7 +74,7 @@
                     <tr>
                         <td><?php echo $hotel['name']; ?></td>
                         <td><?php echo $hotel['description']; ?></td>
-                        <td><?php echo $hotel['parking'] ? 'Yes' : 'No'; ?></td>
+                        <td><?php echo $hotel['parking'] ? 'Si' : 'No'; ?></td>
                         <td><?php echo $hotel['vote']; ?></td>
                         <td><?php echo $hotel['distance_to_center'].'km'; ?></td>
                     </tr>
