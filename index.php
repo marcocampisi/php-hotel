@@ -60,7 +60,15 @@
     <div class="container">
         <h1>Hotels</h1>
         <table class="table table-striped">
-            
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Descrizione</th>
+                    <th>Parcheggio</th>
+                    <th>Voto</th>
+                    <th>Distanza dal centro</th>
+                </tr>
+            </thead>
         </table>
     </div>
 </body>
