@@ -69,6 +69,17 @@
                     <th>Distanza dal centro</th>
                 </tr>
             </thead>
+            <tbody>
+                <?php foreach ($hotels as $hotel) { ?>
+                    <tr>
+                        <td><?php echo $hotel['name']; ?></td>
+                        <td><?php echo $hotel['description']; ?></td>
+                        <td><?php echo $hotel['parking'] ? 'Yes' : 'No'; ?></td>
+                        <td><?php echo $hotel['vote']; ?></td>
+                        <td><?php echo $hotel['distance_to_center'].'km'; ?></td>
+                    </tr>
+                <?php } ?>
+            </tbody>
         </table>
     </div>
 </body>
